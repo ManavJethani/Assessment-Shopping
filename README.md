@@ -32,3 +32,4 @@ Please find user credentials for login :
 5. Checkout Screen - Displays user hardcoded delivery address and contact with link to order details also confirm order button which saves the order to redux.
 6. Header shows app title, go to products, go to cart and login screen link with cart item count.
 7. Test cases are written with react-testing-library with basic tests, should have added more where i can test redux store.
+8. Added separate constant file for messages and hardcoded strings.
