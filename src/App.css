@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
+.grid-container {
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-style { 
+  width:100%;
+  margin-top: 14px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-image {
+  width: 8rem !important;
+  height: 8rem;
+  margin: 20px auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.text-style {
+  text-overflow:ellipsis;
+  overflow:hidden;
+  white-space: nowrap;
+}
+
+.title-style {
+  text-overflow:ellipsis;
+  overflow:hidden;
+  white-space: nowrap;
+}
+
+.header-style{
+  width: 100%;
+  padding:10px;
+  background-color: black;
   color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.summary-style{
+  width: 28rem;
+  margin: 14px !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.left-align{
+  text-align: left;
+  font-size: 14px;
+}
+.right-align{
+  text-align: right;
+  font-size: 14px;
+}
+.center-align{
+  text-align: center;
+  font-size: 14px;
+}
+
+.cart-detail-style {
+  display: flex !important;
+  flex-direction: row !important;
+  margin: 14px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-style{
+  color: white;
+  margin: 10px;
+  font-size: 14px;
+}
+
+.link-style:hover{
+  text-decoration: none;
+}
+
+.margin-left-right {
+  margin: 0px 5px;
+}
+
+.login-card-style{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.checkout-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28rem;
+  margin: 14px !important;
+}
+
+.error-text {
+  text-align: center;
+  color: red;
+}
+
+.select-style {
+  border-radius: 2px;
+  padding: 5px;
+  font-size: 14px;
 }
