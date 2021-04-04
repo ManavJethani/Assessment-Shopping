@@ -27,7 +27,7 @@ Please find user credentials for login :
     
 1. Implemented token based authentication where user information is hardcoded on front end in a constants file with auth-token instead of server and database. Used session storage for saving the token.
 2. Product Screen - Shows the list of products available, product information is fetched from dummy json file. Also implemented filter by category dropdown. Design is       responsive.
-3. Cart Screen - Displays added products and summary on the right side, if no products are available, it displays a common message of 'no items added to cart' and link to product screen. User can increase or decrease the quantity and remove product from the cart. Same will be reflected to order summary.
+3. Cart Screen - Displays added products and summary on the right side, if no products are available, it displays a common message of 'no items added to cart' and link to product screen. User can increase or decrease the quantity and remove product from the cart. Same will be reflected to order summary Note (quantity won't affect the cart length, it is number of unique items).
 4. Order summary displays the total products and their details with hardcoded discount of 20% applied and proceed to checkout button.
 5. Checkout Screen - Displays user hardcoded delivery address and contact with link to order details also confirm order button which saves the order to redux.
 6. Header shows app title, go to products, go to cart and login screen link with cart item count.
